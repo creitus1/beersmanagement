@@ -26,7 +26,7 @@
         
         <div class="menu" >
             <a id="inicio">inicio</a>
-            <a id="acceso" href="location:public/index.php">acceso</a>
+            <a id="acceso" href="public">acceso</a>
             <a ><img src="images/ingles.png" style="width: 50px;"></a>
         </div>
     </div>
