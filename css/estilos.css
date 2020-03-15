@@ -1,0 +1,211 @@
+                                                    /** HEADER **/
+.header{
+    background-color: rgba(0,0,0,0.5); 
+    width: 100%; 
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+}
+#logo-empresa{
+    width: 50%;
+    margin-left: 0%;
+    text-align: center;
+}
+#logo{
+    width: 80%;
+    margin-left: 0;
+    margin-top: 12px; 
+}
+.menu {
+    position: absolute; 
+    top: 40px; 
+    right: 40px;
+    margin-right: 3%;
+}
+.menu a{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 15;
+    color: white;
+    margin: auto;
+    padding: 10px 15px;
+    border: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+}
+#inicio{
+    border: 1px solid white;
+}
+#inicio:hover{
+    background-color: rgba(255,255,255,0.5);
+    transition-duration: .3s; 
+}
+#acceso:hover{
+    background-color: rgba(255,255,255,0.5);
+    transition-duration: .3s;      
+}
+.menu img:hover{
+-webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+                                                            /** SLIDER **/
+
+
+#slider{
+    position: relative;
+    z-index: 1;
+}
+#titulo-inicio{
+    z-index: 2;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.carousel-inner img{
+   position: relative;
+   filter: brightness(60%);
+    
+}
+#slider h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+    margin: 35px;
+}
+
+                                                        /**CONTENIDO**/
+
+.contenido{
+    display: flex;
+    margin: 5%;
+}
+.quienes{
+    width: 480px;
+    z-index: 1;
+    margin:0%;
+    margin-right: 0;
+}
+.quienes h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+.quienes p{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 24px;
+}
+#linea{
+    margin: 0;
+    padding: 0; 
+    padding-top: 10px;
+    width: 10%;
+}
+#linea img{
+    width: 100%;
+    height: 60px;
+}
+.quienes h4{
+    margin: 0;
+    padding: 0;
+    font-family:inherit;
+    font-size: 70px;
+    color: rgba(204,203,203,1);
+}
+.somos {
+    display: flex;
+    margin-bottom: 10px;
+}
+#logo-contenido{
+    width: 60%;
+}
+.mision-vision{
+    width: 300px;;
+    z-index: 1;
+    margin:0 2.5% ;
+    padding-top: 0;
+}
+.mision-vision p{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 24px;
+    margin-top:40px;
+}
+.mision-vision img{
+    width: 50px;
+}
+.mision-vision img{
+    width: 50px;
+}
+
+.tipos-de-cerveza{
+    margin: 5%;
+    margin-top: 10%;
+}
+
+.sabores{
+    display: flex;
+    margin:15%;
+    margin-top: 0;
+}
+.sabores img{
+    width: 255px;
+    height: 255px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.sabores img:hover{
+    filter: brightness(60%);
+    transition-duration: .7s;   
+}   
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #131313;
+    z-index: 2;
+    align-content: center;
+    position: absolute;
+}
+.contenido-footer{
+    margin:5%;
+    border-top:solid 1px white;
+    border-bottom:solid 1px white;
+    width: 90%;
+    height: 365px;
+}
+.datos{
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+.datos img{
+    margin: 8%;
+    margin-right: 10px;
+    width: 250px;
+    height: 205px;
+}
+.datos h1{
+    color: white;
+    margin-bottom: 10%;;
+}
+.datos h5{
+    color: white;
+}
+
+.modal-footer input{
+    margin: 15px;
+    width: 200px;
+    height: 40px;
+    font-family: sans-serif;
+}
+.usuario-registro input{
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 90px;
+}
+#registro{
+    color:#007bff;
+    margin-left: 50%;
+    font-weight: bolder;
+    cursor: pointer;
+}
